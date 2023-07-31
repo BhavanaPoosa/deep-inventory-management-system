@@ -9,7 +9,7 @@ def create():
     c.execute('CREATE TABLE IF NOT EXISTS coldDrinks (time TEXT, name TEXT, count INTEGER)')
 
 def insert(time,name,count):
-    c.execute('INSERT INTO coldDrinks (time, name, count) VALUES (?, ?, ?)',(time, name, count))
+    c.execute('INSERT INTO coldDrinks (time, name, count) VALUES (?,?,?)',(time, name, count))
     conn.commit()
 
 def read():
