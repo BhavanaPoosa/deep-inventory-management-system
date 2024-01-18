@@ -1,8 +1,7 @@
 # PickNCheck
-**Situation:**
+
 As part of a deep inventory management system project, my responsibility was to implement a cutting-edge YOLOv5 deep learning model using PyTorch. The goal was to enable dynamic detection and real-time updates of inventory items. The project aimed to enhance the frontend display through the Streamlit framework, facilitating seamless inventory management on mobile devices.
 
-**Task:**
 The primary tasks included implementing the YOLOv5 model for inventory item detection, achieving a remarkable detection speed of as low as 5ms per frame. Additionally, I was tasked with improving the frontend user interface using Streamlit. The application needed to stream items in real-time on mobile devices, where the deep learning model automatically updated the inventory count, reflecting the changes in the frontend. Dataset preparation was conducted using RoboFlow, and the backend, developed in Python using PyTorch, stored inventory items in an SQLite database. The entire web application was deployed on Streamlit Cloud for accessibility.
 
 **Action:**
